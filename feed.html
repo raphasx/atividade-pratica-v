@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed · Início</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header class="container" style="margin-bottom: 0;">
+    <nav>
+      <ul>
+        <li><strong>Rede Social</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Buscar</a></li>
+        <li><a href="#">Perfil</a></li>
+        <li><a href="index.html" role="button" class="contrast">Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- seção Novo Post -->
+    <div class="card" style="margin-bottom: 2rem;">
+      <article>
+        <header>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <img src="img/avatar.png" alt="avatar usuário" width="48" height="48" class="foto-post">
+            <div>
+              <strong>Raphael</strong><br>
+              <small>@raphazn.sx</small>
+            </div>
+          </div>
+        </header>
+        <textarea placeholder="O que está acontecendo?" rows="3" style="width: 100%;"></textarea>
+        <button type="button" class="primary" style="margin-top: 0.8rem;">Publicar</button>
+      </article>
+    </div>
+
+    <!-- seção Posts -->
+    <hgroup>
+      <h2>Posts recentes</h2>
+    </hgroup>
+
+    <!-- post 1 -->
+    <article>
+      <div class="div-post">
+        <img src="img/avatar.png" alt="avatar" width="42" height="42" class="foto-post">
+        <div>
+          <strong>Raphael</strong><br>
+          <small>@raphazn.sx · 2h</small>
+        </div>
+      </div>
+      <p>Acabei de descobrir o Pico CSS é extremamente leve e sem classes complicadas. Perfeito para projetos rápidos!</p>
+      <div class="div-interacoes">
+        <span style="cursor: default;">❤️ 24</span>
+        <span style="cursor: default;">💬 7</span>
+      </div>
+    </article>
+
+    <!-- post 2 -->
+    <article>
+      <div class="div-post">
+        <img src="img/avatar.png" alt="avatar" width="42" height="42" class="foto-post">
+        <div>
+          <strong>Raphael</strong><br>
+          <small>@raphazn.sx · 5h</small>
+        </div>
+      </div>
+      <p>Design responsivo direto do framework. Economia de tempo incrível. Recomendo!</p>
+      <div class="div-interacoes">
+        <span style="cursor: default;">❤️ 43</span>
+        <span style="cursor: default;">💬 12</span>
+      </div>
+    </article>
+
+    <!-- post 3 -->
+    <article>
+      <div class="div-post">
+        <img src="img/avatar.png" alt="avatar" width="42" height="42" class="foto-post">
+        <div>
+          <strong>Raphael</strong><br>
+          <small>@raphazn.sx · 1d</small>
+        </div>
+      </div>
+      <p>Hoje revisei os conceitos de HTML semântico. Sempre bom reforçar a base.</p>
+      <div class="div-interacoes">
+        <span>❤️ 18</span>
+        <span>💬 3</span>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

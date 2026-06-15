@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Rede Social</title>
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <main class="container">
+    <div class="grid">
+      <div></div>
+      <div style="margin-top: 3rem;">
+        <article>
+          <header>
+            <h1>Acessar</h1>
+            <p>Informe suas credenciais</p>
+          </header>
+          <form action="feed.html" method="get">
+            <label for="email">
+              E-mail
+              <input type="email" id="email" name="email" placeholder="nome@exemplo.com" required>
+            </label>
+            <label for="senha">
+              Senha
+              <input type="password" id="senha" name="senha" placeholder="********" required>
+            </label>
+            <button type="submit" class="primary">Entrar</button>
+          </form>
+          <footer style="display: flex; justify-content: space-between; margin-top: 1rem;">
+            <a href="cadastro.html">Criar novo usuário</a>
+            <a href="#" style="text-decoration: none;">Esqueceu sua senha?</a>
+          </footer>
+        </article>
+      </div>
+      <div></div>
+    </div>
+  </main>
+</body>
+</html>
